@@ -34,6 +34,7 @@
             button3 = new Button();
             button4 = new Button();
             label2 = new Label();
+            button5 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -94,11 +95,21 @@
             label2.TabIndex = 5;
             label2.Text = "Opções:";
             // 
+            // button5
+            // 
+            button5.Location = new Point(104, 376);
+            button5.Name = "button5";
+            button5.Size = new Size(277, 29);
+            button5.TabIndex = 6;
+            button5.Text = "Consulta de Pedidos por meio do CPF";
+            button5.UseVisualStyleBackColor = true;
+            // 
             // frmPrinc
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
             Controls.Add(label2);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -119,5 +130,6 @@
         private Button button3;
         private Button button4;
         private Label label2;
+        private Button button5;
     }
 }
