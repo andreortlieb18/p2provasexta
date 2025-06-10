@@ -86,20 +86,20 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(53, 322);
+            label5.Location = new Point(465, 74);
             label5.Name = "label5";
-            label5.Size = new Size(50, 20);
+            label5.Size = new Size(101, 20);
             label5.TabIndex = 4;
-            label5.Text = "label5";
+            label5.Text = "Total de Itens:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(53, 353);
+            label6.Location = new Point(660, 74);
             label6.Name = "label6";
-            label6.Size = new Size(50, 20);
+            label6.Size = new Size(83, 20);
             label6.TabIndex = 5;
-            label6.Text = "label6";
+            label6.Text = "Valor Total:";
             // 
             // textBox1
             // 
@@ -126,54 +126,55 @@
             // 
             // button2
             // 
-            button2.Location = new Point(407, 52);
+            button2.Location = new Point(49, 290);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(171, 29);
             button2.TabIndex = 9;
-            button2.Text = "button2";
+            button2.Text = "Adicionar Item";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(415, 60);
+            button3.Location = new Point(611, 121);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(150, 29);
             button3.TabIndex = 10;
-            button3.Text = "button3";
+            button3.Text = "Excluir Pedido";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Location = new Point(423, 68);
+            button4.Location = new Point(455, 121);
             button4.Name = "button4";
-            button4.Size = new Size(94, 29);
+            button4.Size = new Size(150, 29);
             button4.TabIndex = 11;
-            button4.Text = "button4";
+            button4.Text = "Salvar Pedido";
             button4.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(53, 188);
+            comboBox1.Location = new Point(53, 198);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(167, 28);
             comboBox1.TabIndex = 12;
+            comboBox1.Text = "Produtos:";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(457, 240);
+            dataGridView1.Location = new Point(49, 325);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.Size = new Size(353, 113);
             dataGridView1.TabIndex = 13;
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(541, 112);
+            listBox1.Location = new Point(455, 154);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(150, 104);
+            listBox1.Size = new Size(308, 284);
             listBox1.TabIndex = 14;
             // 
             // label7
