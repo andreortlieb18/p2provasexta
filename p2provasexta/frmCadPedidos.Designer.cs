@@ -43,6 +43,7 @@
             comboBox1 = new ComboBox();
             dataGridView1 = new DataGridView();
             listBox1 = new ListBox();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -67,25 +68,25 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(53, 134);
+            label3.Location = new Point(53, 139);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(53, 20);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Nome:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(75, 172);
+            label4.Location = new Point(53, 165);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(46, 20);
             label4.TabIndex = 3;
-            label4.Text = "label4";
+            label4.Text = "Valor:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(65, 202);
+            label5.Location = new Point(53, 322);
             label5.Name = "label5";
             label5.Size = new Size(50, 20);
             label5.TabIndex = 4;
@@ -94,7 +95,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(53, 239);
+            label6.Location = new Point(53, 353);
             label6.Name = "label6";
             label6.Size = new Size(50, 20);
             label6.TabIndex = 5;
@@ -109,18 +110,18 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(498, 326);
+            textBox2.Location = new Point(53, 252);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 7;
             // 
             // button1
             // 
-            button1.Location = new Point(65, 107);
+            button1.Location = new Point(53, 107);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(167, 29);
             button1.TabIndex = 8;
-            button1.Text = "button1";
+            button1.Text = "Buscar";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -153,15 +154,15 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(440, 129);
+            comboBox1.Location = new Point(53, 188);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
+            comboBox1.Size = new Size(167, 28);
             comboBox1.TabIndex = 12;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(171, 165);
+            dataGridView1.Location = new Point(457, 240);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(300, 188);
@@ -170,16 +171,26 @@
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(622, 172);
+            listBox1.Location = new Point(541, 112);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(150, 104);
             listBox1.TabIndex = 14;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(53, 229);
+            label7.Name = "label7";
+            label7.Size = new Size(90, 20);
+            label7.TabIndex = 15;
+            label7.Text = "Quantidade:";
             // 
             // frmCadPedidos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
             Controls.Add(listBox1);
             Controls.Add(dataGridView1);
             Controls.Add(comboBox1);
@@ -219,5 +230,6 @@
         private ComboBox comboBox1;
         private DataGridView dataGridView1;
         private ListBox listBox1;
+        private Label label7;
     }
 }
