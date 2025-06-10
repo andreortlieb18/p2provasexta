@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmCadUsuario";
+            colorDialog1 = new ColorDialog();
+            checkBox1 = new CheckBox();
+            SuspendLayout();
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(463, 157);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // frmCadUsuario
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(checkBox1);
+            Name = "frmCadUsuario";
+            Text = "frmCadUsuario";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ColorDialog colorDialog1;
+        private CheckBox checkBox1;
     }
 }
