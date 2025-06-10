@@ -1,8 +1,8 @@
 namespace p2provasexta
 {
-    public partial class Form1 : Form
+    public partial class frmLoguin : Form
     {
-        public Form1()
+        public frmLoguin()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace p2provasexta
 {
-    partial class Form1
+    partial class frmLoguin
     {
         /// <summary>
         ///  Required designer variable.
@@ -86,7 +86,7 @@
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 5;
             // 
-            // Form1
+            // frmLoguin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -97,8 +97,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "frmLoguin";
+            Text = "frmLoguin";
             ResumeLayout(false);
             PerformLayout();
         }
