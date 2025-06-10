@@ -103,6 +103,7 @@
             button5.TabIndex = 6;
             button5.Text = "Consulta de Pedidos por meio do CPF";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // frmPrinc
             // 
