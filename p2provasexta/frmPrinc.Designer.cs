@@ -80,6 +80,7 @@
             button4.TabIndex = 4;
             button4.Text = "Cadastro de Usuários";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // label2
             // 

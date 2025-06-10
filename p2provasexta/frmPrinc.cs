@@ -16,5 +16,11 @@ namespace p2provasexta
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmCadUsuario frm = new frmCadUsuario();
+            frm.ShowDialog();
+        }
     }
 }
