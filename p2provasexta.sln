@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p2provasexta", "p2provasexta\p2provasexta.csproj", "{4EDD5016-7471-4F03-B629-7811CD6F98DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EDD5016-7471-4F03-B629-7811CD6F98DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDD5016-7471-4F03-B629-7811CD6F98DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDD5016-7471-4F03-B629-7811CD6F98DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDD5016-7471-4F03-B629-7811CD6F98DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B40708FB-6601-48B9-A9DF-D7368D92C216}
+	EndGlobalSection
+EndGlobal
