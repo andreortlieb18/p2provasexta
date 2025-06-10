@@ -49,36 +49,36 @@
             // 
             button1.Location = new Point(104, 175);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(181, 29);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Cadastro de Clientes";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             button2.Location = new Point(104, 210);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(181, 29);
             button2.TabIndex = 2;
-            button2.Text = "button2";
+            button2.Text = "Cadastro de Produtos ";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             button3.Location = new Point(104, 245);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(181, 29);
             button3.TabIndex = 3;
-            button3.Text = "button3";
+            button3.Text = "Cadastro de Pedidos";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
             button4.Location = new Point(104, 280);
             button4.Name = "button4";
-            button4.Size = new Size(94, 29);
+            button4.Size = new Size(181, 29);
             button4.TabIndex = 4;
-            button4.Text = "button4";
+            button4.Text = "Cadastro de Usuários";
             button4.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -86,9 +86,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(104, 125);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(62, 20);
             label2.TabIndex = 5;
-            label2.Text = "label2";
+            label2.Text = "Opções:";
             // 
             // frmPrinc
             // 
