@@ -34,5 +34,11 @@ namespace p2provasexta
             frmCadProdutos frm = new frmCadProdutos();
             frm.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmCadPedidos frm = new frmCadPedidos();
+            frm.ShowDialog();
+        }
     }
 }
