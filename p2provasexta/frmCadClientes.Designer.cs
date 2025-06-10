@@ -56,7 +56,6 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -290,20 +289,11 @@
             label12.TabIndex = 28;
             label12.Text = "Whatsapp:";
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(397, 73);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 29;
-            // 
             // frmCadClientes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(comboBox1);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(label10);
@@ -369,6 +359,5 @@
         private Label label10;
         private Label label11;
         private Label label12;
-        private ComboBox comboBox1;
     }
 }
