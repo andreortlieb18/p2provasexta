@@ -52,7 +52,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(110, 71);
+            label2.Location = new Point(216, 71);
             label2.Name = "label2";
             label2.Size = new Size(62, 20);
             label2.TabIndex = 1;
@@ -61,58 +61,58 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(110, 123);
+            label3.Location = new Point(216, 134);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(52, 20);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Senha:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(118, 187);
+            textBox1.Location = new Point(216, 94);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(110, 217);
+            textBox2.Location = new Point(216, 157);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 4;
             // 
             // button1
             // 
-            button1.Location = new Point(581, 179);
+            button1.Location = new Point(216, 195);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 5;
-            button1.Text = "button1";
+            button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(589, 187);
+            button2.Location = new Point(316, 195);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 6;
-            button2.Text = "button2";
+            button2.Text = "Atualizar";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(597, 195);
+            button3.Location = new Point(416, 195);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 7;
-            button3.Text = "button3";
+            button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
             // 
             // listView1
             // 
-            listView1.Location = new Point(434, 242);
+            listView1.Location = new Point(216, 243);
             listView1.Name = "listView1";
-            listView1.Size = new Size(151, 121);
+            listView1.Size = new Size(294, 154);
             listView1.TabIndex = 8;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
