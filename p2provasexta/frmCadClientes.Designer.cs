@@ -77,6 +77,7 @@
             button2.TabIndex = 2;
             button2.Text = "Adicionar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -335,6 +336,7 @@
             Controls.Add(label1);
             Name = "frmCadClientes";
             Text = "frmCadClientes";
+            Load += frmCadClientes_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
