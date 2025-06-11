@@ -56,6 +56,7 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(334, 169);
+            button2.Location = new Point(334, 134);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 2;
@@ -79,7 +80,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(518, 169);
+            button3.Location = new Point(513, 134);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 3;
@@ -88,7 +89,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(694, 169);
+            button4.Location = new Point(694, 134);
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 4;
@@ -107,7 +108,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(334, 204);
+            dataGridView1.Location = new Point(334, 174);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(454, 235);
@@ -289,11 +290,21 @@
             label12.TabIndex = 28;
             label12.Text = "Whatsapp:";
             // 
+            // button5
+            // 
+            button5.Location = new Point(694, 413);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 29;
+            button5.Text = "Salvar";
+            button5.UseVisualStyleBackColor = true;
+            // 
             // frmCadClientes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(label10);
@@ -359,5 +370,6 @@
         private Label label10;
         private Label label11;
         private Label label12;
+        private Button button5;
     }
 }
