@@ -37,7 +37,7 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            listView1 = new ListView();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // label1
@@ -108,20 +108,20 @@
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // listBox1
             // 
-            listView1.Location = new Point(216, 243);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(294, 154);
-            listView1.TabIndex = 8;
-            listView1.UseCompatibleStateImageBehavior = false;
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(247, 257);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(150, 104);
+            listBox1.TabIndex = 8;
             // 
             // frmCadUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(listView1);
+            Controls.Add(listBox1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -132,6 +132,7 @@
             Controls.Add(label1);
             Name = "frmCadUsuario";
             Text = "frmCadUsuario";
+            Load += frmCadUsuario_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -147,6 +148,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private ListView listView1;
+        private ListBox listBox1;
     }
 }

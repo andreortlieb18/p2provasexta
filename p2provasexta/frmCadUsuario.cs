@@ -16,5 +16,15 @@ namespace p2provasexta
         {
             InitializeComponent();
         }
+
+        private void frmCadUsuario_Load(object sender, EventArgs e)
+        {
+            AtualizarLista();
+        }
+
+        private void AtualizarLista()
+        { 
+            list
+        }
     }
 }
