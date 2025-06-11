@@ -24,7 +24,13 @@ namespace p2provasexta
 
         private void AtualizarLista()
         { 
-            list
+            listBox1.Items.Clear();
+            var linhas = File.ReadAllLines("usuario.csv").Skip(1);
+            foreach (var line in linhas)
+            { 
+                var partes = line.Split(',');
+                listBox1.Items.Add(partes[0]);
+            }
         }
     }
 }
