@@ -96,6 +96,7 @@
             button4.TabIndex = 4;
             button4.Text = "Excluir";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button1
             // 

@@ -50,7 +50,7 @@ namespace p2provasexta
 
             string[] row = new string[] { nome, CPF, email, CEP, logradouro, numero, bairro, cidade, estado, telefone, whatsapp };
             dataGridView1.Rows.Add(row);
-            
+
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
@@ -62,6 +62,11 @@ namespace p2provasexta
             textBox9.Clear();
             textBox10.Clear();
             textBox11.Clear();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
         }
     }
 }
