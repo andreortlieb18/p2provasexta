@@ -108,6 +108,7 @@
             button3.TabIndex = 7;
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // listBox1
             // 

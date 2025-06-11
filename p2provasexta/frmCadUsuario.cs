@@ -56,5 +56,28 @@ namespace p2provasexta
             MessageBox.Show("Usuário adicionado!");
             AtualizarLista();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem ==  null)
+            {
+                MessageBox.Show("Selecione um usuário.");
+                return;
+            }
+
+            string selecionado = listBox1.SelectedItem.ToString();
+            if (selecionado == "ADMIN")
+            {
+                MessageBox.Show("Não é permitido excluir o ADMIN.");
+                return;
+            }
+
+            var linhas = File.ReadAllLines("usuarios.csv").ToList();
+            linhas = linhas.Where(l => l.Split(',')[0] != selecionado).ToList();
+            File.WriteAllLines("usuarios.csv", linhas);
+
+            MessageBox.Show("Usuário excluido!");
+            AtualizarLista();
+        }
     }
 }
