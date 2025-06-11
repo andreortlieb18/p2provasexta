@@ -100,6 +100,7 @@
             Controls.Add(button1);
             Name = "frmLoguin";
             Text = "frmLoguin";
+            Load += frmLoguin_Load;
             ResumeLayout(false);
             PerformLayout();
         }

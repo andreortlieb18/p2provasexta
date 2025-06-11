@@ -52,14 +52,19 @@ namespace p2provasexta
                 }
                 else
                 {
-                    MessageBox.Show("Usuário ou senha inválidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error); 
+                    MessageBox.Show("Usuário ou senha inválidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
                 MessageBox.Show("Arquivo de usuários não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }        
+        }
+
+        private void frmLoguin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
