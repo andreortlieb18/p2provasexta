@@ -87,6 +87,7 @@
             button3.TabIndex = 3;
             button3.Text = "Editar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -106,6 +107,7 @@
             button1.TabIndex = 5;
             button1.Text = "Buscar CEP";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
