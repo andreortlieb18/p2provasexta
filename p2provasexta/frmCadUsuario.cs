@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace p2provasexta
 {
@@ -19,8 +20,12 @@ namespace p2provasexta
 
         private void frmCadUsuario_Load(object sender, EventArgs e)
         {
-            AtualizarLista();
+            dataGridView1.ColumnCount = 2;
+            dataGridView1.Columns[0].Name = "Usuário";
+            dataGridView1.Columns[1].Name = "Senha";   
         }
+        
+        
 
         private void AtualizarLista()
         {
@@ -28,13 +33,21 @@ namespace p2provasexta
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {     
+        {
+            string usuario = textBox1.Text.Trim();
+            string senha = textBox2.Text.Trim();   
+
+            string[] row = new string[] { usuario, senha};
+            dataGridView1.Rows.Add(row);
+
+            textBox1.Clear();
+            textBox2.Clear();
             
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            dataGridView1.Rows.Clear();
         }
     }
 }
