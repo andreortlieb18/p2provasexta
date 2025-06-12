@@ -31,7 +31,6 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             textBox1 = new TextBox();
@@ -72,15 +71,6 @@
             label3.Size = new Size(53, 20);
             label3.TabIndex = 2;
             label3.Text = "Nome:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(53, 165);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Valor:";
             // 
             // label5
             // 
@@ -195,7 +185,6 @@
             Controls.Add(textBox1);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -212,7 +201,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label label4;
         private Label label5;
         private Label label6;
         private TextBox textBox1;
