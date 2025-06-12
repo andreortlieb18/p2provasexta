@@ -19,10 +19,10 @@ namespace p2provasexta
 
         private void frmCadPedidos_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("produto A");
-            comboBox1.Items.Add("produto B");
-            comboBox1.Items.Add("produto C");
-            comboBox1.Items.Add("produto D");
+            comboBox1.Items.Add("Produto A");
+            comboBox1.Items.Add("Produto B");
+            comboBox1.Items.Add("Produto C");
+            comboBox1.Items.Add("Produto D");
 
             dataGridView1.Columns.Add("Produto", "Produto");
             dataGridView1.Columns.Add("Quantidade", "Quantidade");
@@ -42,7 +42,7 @@ namespace p2provasexta
             }
 
             string produto = comboBox1.SelectedItem.ToString();
-            string quantidade = textBox1.Text;
+            string quantidade = textBox2.Text;
 
             dataGridView1.Rows.Add(produto, quantidade);
 

@@ -302,6 +302,7 @@
             button5.TabIndex = 29;
             button5.Text = "Salvar";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // frmCadClientes
             // 
