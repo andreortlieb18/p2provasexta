@@ -42,7 +42,6 @@
             button4 = new Button();
             comboBox1 = new ComboBox();
             dataGridView1 = new DataGridView();
-            listBox1 = new ListBox();
             label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -110,7 +109,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(53, 252);
+            textBox2.Location = new Point(49, 317);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 7;
@@ -126,7 +125,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(49, 290);
+            button2.Location = new Point(49, 350);
             button2.Name = "button2";
             button2.Size = new Size(171, 29);
             button2.TabIndex = 9;
@@ -135,7 +134,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(611, 121);
+            button3.Location = new Point(611, 156);
             button3.Name = "button3";
             button3.Size = new Size(150, 29);
             button3.TabIndex = 10;
@@ -144,7 +143,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(455, 121);
+            button4.Location = new Point(455, 156);
             button4.Name = "button4";
             button4.Size = new Size(150, 29);
             button4.TabIndex = 11;
@@ -163,24 +162,16 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(49, 325);
+            dataGridView1.Location = new Point(248, 198);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(353, 113);
+            dataGridView1.Size = new Size(513, 181);
             dataGridView1.TabIndex = 13;
-            // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(455, 154);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(308, 284);
-            listBox1.TabIndex = 14;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(53, 229);
+            label7.Location = new Point(49, 294);
             label7.Name = "label7";
             label7.Size = new Size(90, 20);
             label7.TabIndex = 15;
@@ -192,7 +183,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label7);
-            Controls.Add(listBox1);
             Controls.Add(dataGridView1);
             Controls.Add(comboBox1);
             Controls.Add(button4);
@@ -209,6 +199,7 @@
             Controls.Add(label1);
             Name = "frmCadPedidos";
             Text = "frmCadPedidos";
+            Load += frmCadPedidos_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -230,7 +221,6 @@
         private Button button4;
         private ComboBox comboBox1;
         private DataGridView dataGridView1;
-        private ListBox listBox1;
         private Label label7;
     }
 }

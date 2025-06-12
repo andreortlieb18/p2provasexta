@@ -16,5 +16,10 @@ namespace p2provasexta
         {
             InitializeComponent();
         }
+
+        private void frmCadPedidos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
