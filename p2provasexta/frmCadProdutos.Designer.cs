@@ -118,6 +118,7 @@
             button2.TabIndex = 8;
             button2.Text = "Editar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -146,6 +147,7 @@
             button4.TabIndex = 11;
             button4.Text = "Salvar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // frmCadProdutos
             // 

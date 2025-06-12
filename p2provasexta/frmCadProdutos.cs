@@ -43,5 +43,15 @@ namespace p2provasexta
         {
             dataGridView1.Rows.Clear();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Não fui programado :)");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Não fui programado :)");
+        }
     }
 }

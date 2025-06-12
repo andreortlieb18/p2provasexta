@@ -37,7 +37,8 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            listBox1 = new ListBox();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -110,20 +111,21 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // listBox1
+            // dataGridView1
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(216, 257);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(294, 104);
-            listBox1.TabIndex = 8;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(210, 250);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.TabIndex = 8;
             // 
             // frmCadUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(listBox1);
+            Controls.Add(dataGridView1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -135,6 +137,7 @@
             Name = "frmCadUsuario";
             Text = "frmCadUsuario";
             Load += frmCadUsuario_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,6 +153,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private ListBox listBox1;
+        private DataGridView dataGridView1;
     }
 }
