@@ -21,5 +21,10 @@ namespace p2provasexta
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Não fui programado :)");
+        }
     }
 }

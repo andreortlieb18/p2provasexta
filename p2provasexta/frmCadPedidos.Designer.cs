@@ -122,6 +122,7 @@
             button1.TabIndex = 8;
             button1.Text = "Buscar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -153,6 +154,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Picanha Temperada", "Pernil Suíno de Qualidade Duvidosa", "Asinha de Frango Temperada", "Linguiça Toscana" });
             comboBox1.Location = new Point(53, 198);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(167, 28);
