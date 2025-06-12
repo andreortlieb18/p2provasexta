@@ -122,6 +122,7 @@
             button2.TabIndex = 9;
             button2.Text = "Adicionar Item";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -131,6 +132,7 @@
             button3.TabIndex = 10;
             button3.Text = "Excluir Pedido";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -140,6 +142,7 @@
             button4.TabIndex = 11;
             button4.Text = "Salvar Pedido";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // comboBox1
             // 
