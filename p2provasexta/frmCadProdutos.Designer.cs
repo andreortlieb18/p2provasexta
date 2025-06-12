@@ -40,6 +40,7 @@
             button3 = new Button();
             dataGridView1 = new DataGridView();
             button4 = new Button();
+            checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -149,11 +150,22 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(317, 121);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 12;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // frmCadProdutos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkBox1);
             Controls.Add(button4);
             Controls.Add(dataGridView1);
             Controls.Add(button3);
@@ -188,5 +200,6 @@
         private Button button3;
         private DataGridView dataGridView1;
         private Button button4;
+        private CheckBox checkBox1;
     }
 }
