@@ -108,6 +108,7 @@
             button1.TabIndex = 7;
             button1.Text = "Adicionar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -126,6 +127,7 @@
             button3.TabIndex = 9;
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // dataGridView1
             // 
@@ -164,6 +166,7 @@
             Controls.Add(label1);
             Name = "frmCadProdutos";
             Text = "frmCadProdutos";
+            Load += frmCadProdutos_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
